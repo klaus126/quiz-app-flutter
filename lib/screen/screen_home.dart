@@ -80,12 +80,23 @@ class _HomeScreenState extends State<HomeScreen> {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
-                        child: RaisedButton(
+                        // child: RaisedButton(
+                        //   child: Text(
+                        //     '지금 퀴즈 풀기',
+                        //     style: TextStyle(color: Colors.white),
+                        //   ),
+                        //   color: Colors.deepPurple,
+                        //   onPressed: () {},
+
+                        //   ),
+                        child: ElevatedButton (
                           child: Text(
                             '지금 퀴즈 풀기',
                             style: TextStyle(color: Colors.white),
                             ),
-                            color: Colors.deepPurple,
+                            style: ElevatedButton.styleFrom(
+                              primary: Colors.deepPurple
+                            ),
                             onPressed: () {
                               Navigator.push(
                                 context, 
