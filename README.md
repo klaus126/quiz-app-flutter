@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+[flutter setting](https://github.com/klaus126/quiz-app-flutter/blob/main/flutter_settings.md)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
