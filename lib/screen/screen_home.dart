@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:simple_quiz_app/model/model_quiz.dart';
+import 'package:simple_quiz_app/screen/screen_quiz.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -6,6 +8,24 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<Quiz> quizes = [
+    Quiz.fromMap({
+      'title': 'test',
+      'candidates': ['a','b','c', 'd'],
+      'answer': 0
+    }),
+    Quiz.fromMap({
+      'title': 'test',
+      'candidates': ['a','b','c', 'd'],
+      'answer': 0
+    }),
+    Quiz.fromMap({
+      'title': 'test',
+      'candidates': ['a','b','c', 'd'],
+      'answer': 0
+    }),
+  ];
+
   @override
   Widget build(BuildContext context) {
     // media query 활용: 화면의 사이즈, 화면 로테이션 정보
@@ -66,7 +86,16 @@ class _HomeScreenState extends State<HomeScreen> {
                             style: TextStyle(color: Colors.white),
                             ),
                             color: Colors.deepPurple,
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                context, 
+                                MaterialPageRoute(
+                                  builder: (context) => QuizScreen(
+                                    quizes: quizes,
+                                  ),
+                                ),
+                              );
+                            },
                             ),
                       ),
                     ),
