@@ -8,6 +8,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "auto_size_text",
+      "rootUri": "file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/auto_size_text-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
       "packageUri": "lib/",
@@ -170,7 +176,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-10-05T13:18:17.542484Z",
+  "generated": "2021-10-05T23:26:00.854252Z",
   "generator": "pub",
   "generatorVersion": "2.15.0-177.0.dev"
 }

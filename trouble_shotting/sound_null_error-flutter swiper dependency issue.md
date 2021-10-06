@@ -1,7 +1,7 @@
 # Sound null error - flutter swiper dependency issue.
 
 
-
+[cf. Unsound null safety - Dart Official Guide](https://dart.dev/null-safety/unsound-null-safety)
 
 
 
