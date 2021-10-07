@@ -50,6 +50,14 @@ flutter_swiper
 2.0
 file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_swiper-1.1.6/
 file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_swiper-1.1.6/lib/
+http
+2.14
+file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/
+file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/lib/
+http_parser
+2.12
+file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/
+file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/lib/
 lints
 2.12
 file:///Users/jonghae/development/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/

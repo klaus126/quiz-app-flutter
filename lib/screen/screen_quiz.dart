@@ -108,7 +108,9 @@ class _QuizScreenState extends State<QuizScreen> {
                           : Text('다음문제'),
                           textColor: Colors.white,
                           color: Colors.deepPurple,
-                          onPressed: _answers[_currentIndex] == -1 ? null : () {
+                          onPressed: _answers[_currentIndex] == -1 
+                          ? null 
+                          : () {
                             if (_currentIndex == widget.quizes.length -1) {
                               Navigator.push(
                                 context, 
