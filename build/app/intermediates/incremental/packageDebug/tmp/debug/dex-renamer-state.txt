@@ -1,4 +1,4 @@
-#Tue Oct 05 15:11:21 KST 2021
+#Thu Oct 07 21:03:30 KST 2021
 base.0=/Users/jonghae/Project/bench/simple_quiz_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
